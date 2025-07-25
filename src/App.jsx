@@ -7,6 +7,8 @@ import Techstack from './pages/Techstack'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
 import { motion } from "framer-motion";
+import './index.css';
+
 
 
 const App = () => {
@@ -19,13 +21,12 @@ const App = () => {
         <Route path='projects' element={<Projects />} />
         <Route path='contacts' element={<Contact />} />
       </Route>
-    )
-  )
-  return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  )
+    ),
+    {
+      basename: "/portfolio-site",
+    }
+  );
+  return <RouterProvider router={router} />
 }
 
 export default App
