@@ -23,9 +23,9 @@ const Navbar = () => {
             </ul>
         </div>
         <div className='flex justify-between items-center gap-6'>
-            <a href=""><img src={github} alt="" /></a>
+            <a href="https://github.com/Dev-Tiana"><img src={github} alt="" /></a>
             <a href=""><img src={twitter} alt="" /></a>
-            <a href=""><img src={linkedin} alt="" /></a>
+            <a href="https://www.linkedin.com/in/evi-okpako-562641238?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9xxXrlPyTxeYHd5R6Coz%2Fg%3D%3D"><img src={linkedin} alt="" /></a>
         </div>
         </div>
 
