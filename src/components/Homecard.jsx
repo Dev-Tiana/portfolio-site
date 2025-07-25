@@ -19,15 +19,15 @@ const Homecard = () => {
     const cardList = [
         {'id': 1,
             "image": image2,
-            "heading": "Writing & Publishing Platform",
+            "heading": "Zarrin",
             "details": "A clean, user-friendly platform built for writers to create, publish, and share their stories with the world. Designed for simplicity, creativity, and community",
             "technologies": "Tech stack : HTML , JavaScript, React, tailwind, Git",
             "linkImage": link,
             "linkName": "Live Preview",
-            "linkk": "",
+            "linkk": "https://github.com/Dev-Tiana/Zarrin",
             "linkImage2": link2,
             "linkName2": "View Code",
-            "link": ""
+            "link": "https://dev-tiana.github.io/Zarrin/"
         },
         {'id': 2,
             "image": image3,
