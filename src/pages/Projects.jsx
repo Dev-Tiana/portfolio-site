@@ -18,8 +18,8 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
           className='flex flex-col gap-3 px-[6%]'
         >
-          <h1 className='font-[Sora] font-bold text-[#42446E] text-[25px]'>Projects</h1>
-          <h2 className='font-normal font-[Sora] text-[#666666] text-[18px]'>
+          <h1 className='font-[Sora] font-bold text-[#CCCCCC] text-[25px]'>Projects</h1>
+          <h2 className='font-normal font-[Sora] text-[#A7A7A7] text-[18px]'>
             Things I’ve built so far
           </h2>
         </motion.div>

@@ -10,9 +10,9 @@ import boostrap from '../assets/Bootstrap.svg'
 import tailwind from '../assets/tailwind.svg'
 import sass from '../assets/logos_sass.svg'
 import git from '../assets/logos_git-icon.svg'
-import greensock from '../assets/cib_greensock.svg'
+import greensock from '../assets/cib_greensock 2.svg'
 import vscode from '../assets/vscode.svg'
-import githubb from '../assets/github-fill.svg' 
+import githubb from '../assets/akar-icons_github-fill 3.svg' 
 
 const Techstack = () => {
   return (

@@ -46,7 +46,7 @@ const Aboutcard = () => {
         {cardList.map((card) => (
             <div className=''>
                 <div className='flex justify-between items-center'>
-                    <h1 className='font-[Sora] font-normal text-[#666666] text-[18px]'>{card.heading}</h1>
+                    <h1 className='font-[Sora] font-normal text-[#CCCCCC] text-[18px]'>{card.heading}</h1>
                    <button className='text-[#018C0F] text-[12px] font-bold bg-[#D7FFE0] py-2 px-5 rounded-[25px]'>{card.time}</button>
                 </div>
                 <div className='flex justify-between items-center'>

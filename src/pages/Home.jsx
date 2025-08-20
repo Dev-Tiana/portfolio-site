@@ -10,9 +10,9 @@ import boostrap from '../assets/Bootstrap.svg';
 import tailwind from '../assets/tailwind.svg';
 import sass from '../assets/logos_sass.svg';
 import git from '../assets/logos_git-icon.svg';
-import greensock from '../assets/cib_greensock.svg';
+import greensock from '../assets/cib_greensock 2.svg';
 import vscode from '../assets/vscode.svg';
-import githubb from '../assets/github-fill.svg';
+import githubb from '../assets/akar-icons_github-fill.svg';
 import Homecard from '../components/Homecard';
 import { motion } from "framer-motion";
 
@@ -30,12 +30,15 @@ const Home = () => {
           transition={{ duration: 0.7 }}
           className='basis-1/2'
         >
-          <h1 className='text-center md:text-left font-[Sora] font-bold text-[38px] lg:text-[48px] text-[#42446E]'>
-            Hi 👋, <br />My name is <br />
+          <h1 className='text-center md:text-left font-[Sora] font-bold text-[38px] lg:text-[46px] text-[#D9D9D9]'>
+            Hi 👋, <br />My name is<br />
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#FEF300] to-[#E216AD]'>
-              Evi Okpako
-            </span> <br /> I build things for web
+            Evi Okpako
+            </span> <br />I build things for web.
           </h1>
+          <a className='mt-6' href="https://docs.google.com/forms/d/e/1FAIpQLSfPQwJZAITGFZR8S7m5RGGPDmwC62o0knOVy3qWPsHnH1fZOg/viewform?usp=header"><button className='text-[#E216AD] text-[16px] font-bold bg-white py-3 px-6 rounded-[25px] hover:bg-[#FEF300]'>
+          Hire Me
+        </button></a>
         </motion.div>
 
         <motion.div
@@ -89,8 +92,8 @@ const Home = () => {
         className='py-10'
       >
         <div className='flex flex-col justify-center items-center gap-3'>
-          <h1 className='font-[Sora] font-bold text-[#42446E] text-[25px]'>Projects</h1>
-          <h2 className='font-normal font-[Sora] text-[#666666] text-[18px]'>Things I’ve built so far</h2>
+          <h1 className='font-[Sora] font-bold text-[#CCCCCC] text-[25px]'>Projects</h1>
+          <h2 className='font-normal font-[Sora] text-[#A7A7A7] text-[18px]'>Things I’ve built so far</h2>
         </div>
       </motion.div>
 

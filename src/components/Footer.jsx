@@ -26,11 +26,11 @@ const Footer = () => {
         <div className='flex flex-col md:flex-col lg:flex-row gap-6 lg:gap-0 justify-between items-center px-[8%] py-6'>
          <div className=''>
             <ul className='flex items center gap-2 md:gap-8'>
-                <NavLink to='/'><li className='font-[Sora] font-normal text-[#666666] text-[10px] md:text-[16px]'>Home</li></NavLink>
-                <NavLink to='about'><li className='font-[Sora] font-normal text-[#666666] text-[10px] md:text-[16px]'>About</li></NavLink>
-                <NavLink to='techstack'><li className='font-[Sora] font-normal text-[#666666] text-[10px] md:text-[16px]'>Technologies</li></NavLink>
-                <NavLink to='projects'><li className='font-[Sora] font-normal text-[#666666] text-[10px] md:text-[16px]'>Projects</li></NavLink>
-                <NavLink to='contacts'><li className='font-[Sora] font-normal text-[#666666] text-[10px] md:text-[16px]'>Contact</li></NavLink>
+                <NavLink to='/'><li className='font-[Sora] font-normal text-[#A7A7A7] text-[10px] md:text-[16px]'>Home</li></NavLink>
+                <NavLink to='about'><li className='font-[Sora] font-normal text-[#A7A7A7] text-[10px] md:text-[16px]'>About</li></NavLink>
+                <NavLink to='techstack'><li className='font-[Sora] font-normal text-[#A7A7A7] text-[10px] md:text-[16px]'>Technologies</li></NavLink>
+                <NavLink to='projects'><li className='font-[Sora] font-normal text-[#A7A7A7] text-[10px] md:text-[16px]'>Projects</li></NavLink>
+                <NavLink to='contacts'><li className='font-[Sora] font-normal text-[#A7A7A7] text-[10px] md:text-[16px]'>Contact</li></NavLink>
             </ul>
         </div>
         <div>

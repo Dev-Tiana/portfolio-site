@@ -25,13 +25,13 @@ const Aboutcard2 = () => {
         {cardList.map((card) => (
             <div className=''>
                 <div className='flex justify-between items-center'>
-                    <h1 className='font-[Sora] font-normal text-[#666666] text-[14px] md:text-[18px]'>{card.heading}</h1>
+                    <h1 className='font-[Sora] font-normal text-[#CCCCCC] text-[14px] md:text-[18px]'>{card.heading}</h1>
                    <button className='text-[#018C0F] text-[12px] font-bold bg-[#D7FFE0] py-2 px-5 rounded-[25px]'>{card.time}</button>
                 </div>
                 <div className='flex justify-between items-center'>
                     <div className='flex justify-center items-center gap-2'>
                         <img className='w-[16px] h-[12px] text-black' src={card.companyimage} alt="" />
-                        <p className='font-[Sora] font-normal text-[#666666] text-[14px]'>{card.company}</p>
+                        <p className='font-[Sora] font-normal text-[#CCCCCC] text-[14px]'>{card.company}</p>
                     </div>
                     <div className='flex justify-center items-center gap-2'>
                         <img className='w-[16px] h-[12px] text-black' src={card.locationimage} alt="" />
@@ -39,7 +39,7 @@ const Aboutcard2 = () => {
                     </div>
                     <div className='flex justify-center items-center gap-2'>
                         <img className='w-[16px] h-[12px] text-black' src={card.dateimage} alt="" />
-                        <p className='font-[Sora] font-normal text-[#666666] text-[14px]'>{card.date}</p>
+                        <p className='font-[Sora] font-normal text-[#CCCCCC] text-[14px]'>{card.date}</p>
                     </div>
                 </div>
                 <hr className='my-6' />

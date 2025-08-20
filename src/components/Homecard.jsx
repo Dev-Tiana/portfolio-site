@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import link from  '../assets/link.png'
+import link from  '../assets/Group.png'
 import image1 from '../assets/AI project1.PNG'
-import link2 from '../assets/github.svg'
+import link2 from '../assets/akar-icons_github-fill 3.svg'
 import image2 from '../assets/AI project4.PNG'
 import image3 from '../assets/marketingsite.PNG'
 import image4 from '../assets/Nike12.PNG'
@@ -129,21 +129,21 @@ const Homecard = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 px-[6%] py-8'>
         {cardList.map((card) =>(
-            <div className='flex flex-col gap-3 rounded-[16px] shadow-[2px_4px_10px_rgba(0.25,0,0,0.25)] pb-6' key={card.id}>
+            <div className='flex flex-col gap-3 rounded-[16px] shadow-[2px_4px_10px_rgba(0.25,0,0,0.25)] pb-6 bg-[#363636]' key={card.id}>
                 {/* <div className='w-[300px] h-[300px] object-center' style={{backgroundImage: `Url(${card.image})`}}></div> */}
                 <img className='w-full h-fit rounded-t-2xl' src={card.image} alt="" />
-                <h1 className='font-[Sora] font-bold text-[18px] text-[#333333] px-6'>{card.heading}</h1>
-                <p className='font-[Sora] font-normal text-[15px] text-[#666666] px-6'>{card.details}</p>
-                <h2 className='font-[Sora] font-[400] text-[13px] text-[#666666] px-6'>{card.technologies}</h2>
+                <h1 className='font-[Sora] font-bold text-[18px] text-[#CCCCCC] px-6'>{card.heading}</h1>
+                <p className='font-[Sora] font-normal text-[15px] text-[#CCCCCC] px-6'>{card.details}</p>
+                <h2 className='font-[Sora] font-[400] text-[13px] text-[#CCCCCC] px-6'>{card.technologies}</h2>
                 <div className='px-6 flex justify-between items-center'>
                     <div className='flex justify-center items-center'>
                         <img src={card.linkImage} alt="" />
-                        <a className='font-[Sora] font-[500] text-[13px] text-[#333333] px-2' href={card.link} >{card.linkName}</a>
+                        <a className='font-[Sora] font-[500] text-[13px] text-[#CCCCCC] px-2' href={card.link} >{card.linkName}</a>
                     </div>
                     <div className='flex justify-center items-center'>
                         <img src={card.linkImage2} alt="" />
                         {/* <Link className='font-[Sora] font-[500] text-[13px] text-[#333333] px-2' to={card.link}>{card.linkName2}</Link> */}
-                        <a className='font-[Sora] font-[500] text-[13px] text-[#333333] px-2' href={card.linkk} >{card.linkName2}</a>
+                        <a className='font-[Sora] font-[500] text-[13px] text-[#CCCCCC] px-2' href={card.linkk} >{card.linkName2}</a>
 
                     </div>
                 </div>

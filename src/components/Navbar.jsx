@@ -15,11 +15,11 @@ const Navbar = () => {
         <div className='flex justify-between items-center gap-8 hidden md:flex'>
         <div className=''>
             <ul className='flex justify-between items center gap-8'>
-                <NavLink to='/'><li className='font-[Sora] font-normal text-[#666666]'>Home</li></NavLink>
-                <NavLink to='about'><li className='font-[Sora] font-normal text-[#666666]'>About</li></NavLink>
-                <NavLink to='techstack'><li className='font-[Sora] font-normal text-[#666666]'>Tech Stack</li></NavLink>
-                <NavLink to='projects'><li className='font-[Sora] font-normal text-[#666666]'>Projects</li></NavLink>
-                <NavLink to='contacts'><li className='font-[Sora] font-normal text-[#666666]'>Contact</li></NavLink>
+                <NavLink to='/'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Home</li></NavLink>
+                <NavLink to='about'><li className='font-[Sora] font-normal text-[#A7A7A7]'>About</li></NavLink>
+                <NavLink to='techstack'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Tech Stack</li></NavLink>
+                <NavLink to='projects'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Projects</li></NavLink>
+                <NavLink to='contacts'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Contact</li></NavLink>
             </ul>
         </div>
         <div className='flex justify-between items-center gap-6'>
@@ -33,11 +33,11 @@ const Navbar = () => {
         <div className='flex flex-col justify-center items-center md:hidden gap-2'>
         <div className='flex flex-col'>
             <ul className='flex flex-col justify-between items center gap-8'>
-                <NavLink to='/'><li className='font-[Sora] font-normal text-[#666666]'>Home</li></NavLink>
-                <NavLink to='about'><li className='font-[Sora] font-normal text-[#666666]'>About</li></NavLink>
-                <NavLink to='techstack'><li className='font-[Sora] font-normal text-[#666666]'>Tech Stack</li></NavLink>
-                <NavLink to='projects'><li className='font-[Sora] font-normal text-[#666666]'>Projects</li></NavLink>
-                <NavLink to='contacts'><li className='font-[Sora] font-normal text-[#666666]'>Contact</li></NavLink>
+                <NavLink to='/'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Home</li></NavLink>
+                <NavLink to='about'><li className='font-[Sora] font-normal text-[#A7A7A7]'>About</li></NavLink>
+                <NavLink to='techstack'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Tech Stack</li></NavLink>
+                <NavLink to='projects'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Projects</li></NavLink>
+                <NavLink to='contacts'><li className='font-[Sora] font-normal text-[#A7A7A7]'>Contact</li></NavLink>
             </ul>
         </div>
         <div className='flex justify-between items-center gap-6'>
