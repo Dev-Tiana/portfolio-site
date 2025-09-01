@@ -57,9 +57,11 @@ const About = () => {
           Download Cv
         </button>
          </a>
-         <button className='text-[#018C0F] text-[16px] font-bold bg-[#D7FFE0] py-3 px-6 rounded-[25px] mx-[8%]'>
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPQwJZAITGFZR8S7m5RGGPDmwC62o0knOVy3qWPsHnH1fZOg/viewform?usp=header">
+          <button className='text-[#018C0F] text-[16px] font-bold bg-[#D7FFE0] py-3 px-6 rounded-[25px] mx-[8%]'>
           Hire Me
         </button>
+         </a>
        </div>
       </motion.div>
 

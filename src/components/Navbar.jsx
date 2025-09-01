@@ -4,7 +4,7 @@ import logo from '../assets/myLogo.png'
 import linkedin from '../assets/social_linkedin.svg'
 import twitter from '../assets/twitter-circle-filled.svg'
 import github from '../assets/github.svg'
-import menu from '../assets/Menu.png'
+import menu from '../assets/Menu4.svg'
 
 const Navbar = () => {
   const [isopen, setOpen] = useState(false);
@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
         )}
 
-        <button className='flex md:hidden' onClick={handleToggle}><img src={menu} alt="" /></button>
+        <button className='flex md:hidden' onClick={handleToggle}><img className='w-[40px]' src={menu} alt="" /></button>
     </div>
   )
 }

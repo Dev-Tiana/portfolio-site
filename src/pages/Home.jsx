@@ -36,7 +36,7 @@ const Home = () => {
             Evi Okpako
             </span> <br />I build things for web.
           </h1>
-          <a className='mt-6' href="https://docs.google.com/forms/d/e/1FAIpQLSfPQwJZAITGFZR8S7m5RGGPDmwC62o0knOVy3qWPsHnH1fZOg/viewform?usp=header"><button className='text-[#E216AD] text-[16px] font-bold bg-white py-3 px-6 rounded-[25px] hover:bg-[#FEF300]'>
+          <a className='mt-6 flex justify-center items-center' href="https://docs.google.com/forms/d/e/1FAIpQLSfPQwJZAITGFZR8S7m5RGGPDmwC62o0knOVy3qWPsHnH1fZOg/viewform?usp=header"><button className='text-[#E216AD] text-[16px] font-bold bg-white py-3 px-6 rounded-[25px] hover:bg-[#FEF300]'>
           Hire Me
         </button></a>
         </motion.div>
